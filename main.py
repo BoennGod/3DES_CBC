@@ -6,7 +6,11 @@ from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad, unpad
 
 CHUNK_SIZE = 1024 * 1024
-FILENAME = "resources/galaxy.jpg"
+# FILENAME = "resources/galaxy.jpg"
+FILENAME = "resources/movie.mp4"
+
+
+
 
 #check for weak keys
 WEAK_KEYS = {
